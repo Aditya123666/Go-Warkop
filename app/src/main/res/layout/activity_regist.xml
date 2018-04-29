@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@drawable/bg"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+tools:context="gowarkop.go_warkop.Regist">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/trans_white_rectangle"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:textColor="#fff"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <AutoCompleteTextView
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="14sp"
+
+            android:hint="  Email  "
+            android:background="@drawable/rounded_white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+
+            android:drawablePadding="5dp"
+            />
+        <AutoCompleteTextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/userpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="14sp"
+
+            android:hint="  Password 24.21 "
+            android:background="@drawable/rounded_white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:drawablePadding="5dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="5dp"
+            />
+        <AutoCompleteTextView
+
+            android:id="@+id/userrepassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="14sp"
+
+            android:hint="  Confirm Password "
+            android:textStyle=""
+            android:background="@drawable/rounded_white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:drawablePadding="5dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rbregist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to the terms and conditions"
+            android:textColor="#fff"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+
+
+            />
+        <Button
+            android:id="@+id/btnregist"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:background="@drawable/register_button"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="36dp"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>
